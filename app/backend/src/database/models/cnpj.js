@@ -1,44 +1,40 @@
-import { DATE, INTEGER, Model, NOW, STRING } from 'sequelize'
-import db from '.'
+module.exports = (sequelize, DataTypes) => {
+  const Cnpj = sequelize.define("Cnpj",{
+    id: {
+      allowNull: false,
+      autoIncrement: true,
+      primaryKey: true,
+      type: DataTypes.INTEGER
+    },
+    cnpj: {
+      allowNull: false,
+      unique: true,
+      type: DataTypes.STRING
+    },
+    companyType: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    createdAt: {
+      allowNull: false,
+      type: DataTypes.DATE,
+      defaultValue: DataTypes.NOW
+    },
+    updatedAt: {
+      allowNull: false,
+      type: DataTypes.DATE,
+      defaultValue: DataTypes.NOW
+    }
+    },
+    {
+      timestamps: false,
+      modelName: "cnpjs",
+    }
+  );
 
-class Cnpj extends Model {
-  readonly id!: number
-  public cnpj!: string
-  public companyType!: string
-  public createdAt!: string
-  public updatedAt!: string
-}
+  return Cnpj;
+};
 
-Cnpj.init({
-  id: {
-    allowNull: false,
-    autoIncrement: true,
-    primaryKey: true,
-    type: INTEGER
-  },
-  cnpj: {
-    allowNull: false,
-    unique: true,
-    type: STRING
-  },
-  companyType: {
-    allowNull: false,
-    type: STRING
-  },
-  createdAt: {
-    allowNull: false,
-    type: DATE,
-    defaultValue: NOW
-  },
-  updatedAt: {
-    allowNull: false,
-    type: DATE,
-    defaultValue: NOW
-  }
-}, {
-  sequelize: db,
-  modelName: 'cnpjs',
-  timestamps: false
-})
 
-export default Cnpj
+
+
