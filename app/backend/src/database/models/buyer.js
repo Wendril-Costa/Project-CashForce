@@ -115,7 +115,6 @@ module.exports = (sequelize, DataTypes) => {
   Buyer.associate = (models) => {
     Buyer.belongsTo(models.Cnpj, {
       foreignKey: 'cnpjId',
-      as: 'cnpj'
     })
   }
 
