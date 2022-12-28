@@ -1,18 +1,17 @@
 const express = require('express');
 const cors = require('cors');
-
 require('express-async-errors');
+const errorMiddleware = require('../middleware/error')
+const routes = require('../routes/router')
 
-const { invoiceController } = require('../controller/invoiceController');
-
-const router = require('../routes/router')
 const app = express();
+
+app.use(express.json());
 
 app.use(cors());
 
-app.use(express.json());
 app.use(routes)
 
-app.get('/user', invoiceController.findAll);
+app.use(errorMiddleware);
 
 module.exports = app;
