@@ -28,7 +28,7 @@ module.exports = (sequelize, DataTypes) => {
     },
     {
       timestamps: false,
-      modelName: "cnpjs",
+      tableName: "cnpjs",
     }
   );
 
