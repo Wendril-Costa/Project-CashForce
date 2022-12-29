@@ -19,5 +19,4 @@ const invoiceResult = async (order) => {
     return await Promise.all(result)
 }
 
-
 module.exports = { invoiceResult }

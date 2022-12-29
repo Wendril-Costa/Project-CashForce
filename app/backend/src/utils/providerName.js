@@ -6,5 +6,4 @@ const providerName = async (providerId) => {
     return await provider.name
 }
 
-
 module.exports = { providerName }

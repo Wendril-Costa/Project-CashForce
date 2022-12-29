@@ -6,5 +6,4 @@ const buyerName = async (buyerId) => {
     return await buyer.name
 }
 
-
 module.exports = { buyerName }
