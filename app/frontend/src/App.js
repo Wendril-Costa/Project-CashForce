@@ -1,9 +1,17 @@
-import './App.css';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import React from 'react';
+import Invoice from './pages/Invoice';
+
+// import './styles/app.css';
 
 function App() {
   return (
-   <h1>Hellow</h1>
+    <Routes>
+      <Route path="/invoice" element={ <Invoice /> } />
+      <Route exact path="/" element={ <Navigate to="/invoice" /> } />
+    </Routes>
   );
 }
 
 export default App;
+
