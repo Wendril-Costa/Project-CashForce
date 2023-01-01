@@ -1,0 +1,20 @@
+.image-content img {
+    position: absolute;
+    height: 50px;
+    left: 30px;
+    top: 30px;
+    width: 200px;
+  }
+
+.notas-fiscais-header {
+    width: 150px;
+    margin-top: 140px;
+    margin-left: 70px;
+    color: #00AD8C;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 18px;
+    display: flex;
+    align-items: center
+}

@@ -1,11 +1,12 @@
 import React from 'react';
 import InvoiceTable from '../components/InvoiceTable';
+import Header from '../components/Header'
 
 const Invoice = () => {
   
   return (
     <>
-      <h1>HEllow</h1>
+      <Header />
       <InvoiceTable />
     </>
   );
