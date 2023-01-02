@@ -10,9 +10,11 @@ const Header = () => {
                 <div className='image-content'>
                     <img src={ cashForceLogoImg } alt='logo CashForce'/>
                 </div>
-                <img src= { apertoDeMao } alt='aperto de mão com a cor verde'/>
+                <div className='aperto-de-mao'>
+                    <img src= { apertoDeMao } alt='aperto de mão com a cor verde'/>
+                </div>
                 <h1 className='notas-fiscais-header'>Notas fiscais</h1>
-
+                <div className='barra'></div>
             </div>
         </>
     );

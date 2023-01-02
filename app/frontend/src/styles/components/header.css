@@ -16,5 +16,29 @@
     font-size: 19px;
     line-height: 18px;
     display: flex;
-    align-items: center
+    align-items: center;
+    
+    /* border: 1px solid #00AD8C */
+}
+
+.aperto-de-mao img{
+  position: absolute;
+  color: #00AD8C;
+  height: 30px;
+  left: 20px;
+  top: 135px;
+  width: 40px;
+  
+  /* border: 1px solid #00AD8C; */
+}
+
+.barra {
+  position: absolute;
+  color: #00AD8C;
+  height: 64px;
+  left: 0px;
+  top: 118px;
+  width: 4px;
+  background: #00AD8C;
+  /* border: 1px solid black; */
 }
