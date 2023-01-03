@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import React from 'react';
 import Invoice from './pages/Invoice';
+import './styles/reset.css'
 import './styles/app.css';
 
 function App() {

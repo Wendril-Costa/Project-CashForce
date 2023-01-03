@@ -1,44 +1,89 @@
-.image-content img {
-    position: absolute;
-    height: 50px;
-    left: 30px;
-    top: 30px;
-    width: 200px;
-  }
-
-.notas-fiscais-header {
-    width: 150px;
-    margin-top: 140px;
-    margin-left: 70px;
-    color: #00AD8C;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 19px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    
-    /* border: 1px solid #00AD8C */
-}
-
-.aperto-de-mao img{
-  position: absolute;
-  color: #00AD8C;
-  height: 30px;
-  left: 20px;
-  top: 135px;
-  width: 40px;
-  
-  /* border: 1px solid #00AD8C; */
-}
-
-.barra {
-  position: absolute;
-  color: #00AD8C;
-  height: 64px;
-  left: 0px;
-  top: 118px;
-  width: 4px;
-  background: #00AD8C;
+.header {
   /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+  margin-top: 15.3%;
+  margin-left: 4.21%;
+  width: 18%;
+  height: 7%;
+  /* Inside auto layout */
+  flex: none;
+  order: 6;
+  flex-grow: 0;
+}
+
+.header-content-fiscais {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 9px;
+
+  width: 100%;
+  height: 28px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.titulo {
+   /* border: 1px solid black; */
+  margin-top: 3%;
+  margin-left: 3%;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #021B51;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.imgApertoDeMao {
+  /* border: 1px solid black; */
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.paragrafo {
+   /* border: 1px solid black; */
+  margin-top: 5%;
+  width: 100%;
+  height: 1%;
+
+/* p14 - Regular 400 */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* N. Dark / 4 */
+
+color: #727D94;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
 }

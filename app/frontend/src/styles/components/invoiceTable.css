@@ -1,0 +1,415 @@
+
+.table-section {
+    display: flex;
+    /* border: 1px solid #00AD8C; */
+    position: absolute;
+    width: 80%;
+    right: 0%;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(225, 229, 236, 0.5);
+    border-radius: 15px 0px 0px 15px;
+}
+
+.header-table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 16px 46px;
+    gap: 10px;
+    width: 1272px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 12px 0px 0px 0px;
+}
+
+.invoice-thead {
+    margin-top: 10px;
+}
+
+.invoice-table {
+    /* border: 1px solid black; */
+    left: 48px;
+    right: 47px;
+    top: 30%;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+}
+
+.table-header {
+    width: 100%;
+    left: 0px;
+    height: 26px;
+    top: 0px;
+    /* border: 1px solid black; */
+    /* Inside auto layout */
+    position: absolute;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.statusth{
+    /* status */
+
+
+position: absolute;
+left: 69.75%;
+right: 26.51%;
+top: 13.64%;
+bottom: 13.64%;
+
+/* p12 - Caption 700 */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+/* N. Mid / 1 */
+
+color: #A1A8B8;
+
+border-radius: 4px;
+}
+
+.cedenteth {
+    position: absolute;
+left: 30.16%;
+right: 65.25%;
+top: 13.64%;
+bottom: 13.64%;
+
+/* p12 - Caption 700 */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+/* N. Mid / 1 */
+
+color: #A1A8B8;
+
+border-radius: 4px;
+}
+
+.valorth {
+    position: absolute;
+left: 55.23%;
+right: 41.46%;
+top: 13.64%;
+bottom: 13.64%;
+
+/* p12 - Caption 700 */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+/* N. Mid / 1 */
+
+color: #A1A8B8;
+
+border-radius: 4px;
+}
+
+.emissaoth {
+    position: absolute;
+left: 42.4%;
+right: 53.1%;
+top: 13.64%;
+bottom: 13.64%;
+
+/* p12 - Caption 700 */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+/* N. Mid / 1 */
+
+color: #A1A8B8;
+
+border-radius: 4px;
+}
+
+.sacadoth {
+    position: absolute;
+left: 17.08%;
+right: 78.59%;
+top: 13.64%;
+bottom: 13.64%;
+
+/* p12 - Caption 700 */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+/* N. Mid / 1 */
+
+color: #A1A8B8;
+
+border-radius: 4px;
+}
+
+.fiscaisth {
+    position: absolute;
+    /* border: 1px solid black; */
+    left: 40px;
+    right: 88%;
+    top: 3px;
+    bottom: 13.64%;
+
+/* p12 - Caption 700 */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+/* N. Mid / 1 */
+
+color: #A1A8B8;
+
+border-radius: 4px;
+}
+
+.row {
+    align-items:baseline;
+}
+
+.row-second {
+box-sizing: border-box;
+
+/* margin-top: 15px; */
+margin-top: 20px;
+width: 1373px;
+height: 48px;
+/* P. White / 1
+
+Primary palette
+*/
+background: #FFFFFF;
+/* N. Mid / 4 */
+align-items: baseline;
+border: 1px solid #DFE2EB;
+border-radius: 6px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.status {
+    /* border: 1px solid black; */
+    margin-top: -17px;
+    margin-right: 200px;
+    margin-left: 69.75%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #00AD8C;
+}
+
+.value {
+    /* border: 1px solid black; */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    margin-left: 55.23%;
+    margin-right: 37.46%;
+    margin-top: -18px;
+
+    color: #00AD8C;
+}
+
+.emissao {
+    /* border: 1px solid black; */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    margin-left: 42.4%;
+    margin-right: 50.5%;
+    margin-top: -18px;
+    color: #353638;
+}
+
+.cedente {
+    /* border: 1px solid black; */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    margin-left: 30.16%;
+    margin-right: 62.25%;
+    margin-top: -18px;
+
+    color: #353638;
+   
+}
+
+.sacado {
+    /* border: 1px solid black; */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+
+    margin-left: 17.08%;
+    margin-right: 75.59%;
+    margin-top: -19px;
+    color: #353638;
+}
+
+.notas-fiscais {
+    /* border: 1px solid black; */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+
+    margin-left: 40px;
+    margin-right: 10%;
+    margin-top: 14px;
+
+color: #353638;
+}
+
+.faixa-content {
+    position: absolute;
+width: 100%;
+height: 64px;
+left: 0px;
+top: 0px;
+
+}
+
+.faixa {
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 100%;
+bottom: 0%;
+margin-top: 5%;
+/* N. Mid / 4 */
+
+border: 1px solid #DFE2EB;
+}
+
+button {
+    box-sizing: border-box;
+    background-color: #FFF;
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    
+    padding: 8px 29px;
+
+    /* position: absolute; */
+    align-items: center;
+    width: 155px;
+    height: 32px;
+    margin-left: 88%;
+    margin-top: -25px;
+    cursor: pointer;
+
+/* P. Blue / 2 */
+
+    border: 1px solid #CAD3FF;
+    border-radius: 24px;
+}
+
+p {
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 16px;
+
+display: flex;
+align-items: center;
+
+/* N. Dark / 4 */
+
+color: #727D94;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
