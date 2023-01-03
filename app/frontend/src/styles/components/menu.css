@@ -1,5 +1,4 @@
 .header-menu {
-    /* border: 1px solid black; */
     position: absolute;
     width: 20%;
     height: 100%;
@@ -8,12 +7,10 @@
 }
 
 .menu-content {
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
-
     position: absolute;
     width: 100%;
     height: 20%;
@@ -22,18 +19,12 @@
 }
 
 .logo-content {
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
-
     width: 100%;
     height: 60%;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -50,37 +41,25 @@
 }
 
 .item-content {
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    
     width: 100%;
     height: 40%;
-    
-    
-    /* Inside auto layout */
-    
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 
 .item-selected {
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
     gap: 21px;
-
     width: 60%;
     height: 100%;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -89,28 +68,16 @@
 .faixa-rectangle {
     width: 5px;
     height: 100%;
-
-    /* P. Green / 5
-
-    Primary palette
-    */
     background: #00AD8C;
     border-radius: 4px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
 .item-selected p {
-    /* border: 1px solid black; */
     width: 43%;
     height: 20px;
-
-    /* p14 - Medium 500 */
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 600;
@@ -118,29 +85,17 @@
     line-height: 18px;
     display: flex;
     align-items: center;
-
-    /* P. Green / 5 */
-
     color: #00AD8C;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
 .item-content img {
-    /* border: 1px solid black; */
     margin-top: -4px;
     width: 24px;
     height: 24px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }

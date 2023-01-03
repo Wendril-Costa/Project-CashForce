@@ -1,5 +1,4 @@
 .header {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -9,33 +8,25 @@
   margin-left: 4.21%;
   width: 18%;
   height: 7%;
-  /* Inside auto layout */
   flex: none;
   order: 6;
   flex-grow: 0;
 }
 
 .header-content-fiscais {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
   gap: 9px;
-
   width: 100%;
   height: 28px;
-
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
 .titulo {
-   /* border: 1px solid black; */
   margin-top: 3%;
   margin-left: 3%;
   font-family: 'DM Sans';
@@ -50,40 +41,22 @@
 }
 
 .imgApertoDeMao {
-  /* border: 1px solid black; */
-
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
 .paragrafo {
-   /* border: 1px solid black; */
   margin-top: 5%;
   width: 100%;
   height: 1%;
-
-/* p14 - Regular 400 */
-
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-/* identical to box height, or 143% */
-
-
-/* N. Dark / 4 */
-
-color: #727D94;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #727D94;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
