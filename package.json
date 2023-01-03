@@ -1,0 +1,20 @@
+{
+  "name": "project-cashforce",
+  "version": "1.0.0",
+  "description": "Projeto CashForce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wendril-Costa/Project-CashForce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wendril-Costa/Project-CashForce/issues"
+  },
+  "homepage": "https://github.com/Wendril-Costa/Project-CashForce#readme"
+}

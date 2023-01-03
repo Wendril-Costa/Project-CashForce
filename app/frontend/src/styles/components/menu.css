@@ -1,0 +1,101 @@
+.header-menu {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    left: 0px;
+    top: 0px;
+}
+
+.logo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+    height: 60%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5%;
+    width: 220px;
+    height: 40px;
+    left: 24px;
+    top: 25px;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+    height: 40%;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.item-selected {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 21px;
+    width: 60%;
+    height: 100%;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.faixa-rectangle {
+    width: 5px;
+    height: 100%;
+    background: #00AD8C;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.item-selected p {
+    width: 43%;
+    height: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #00AD8C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.item-content img {
+    margin-top: -4px;
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
